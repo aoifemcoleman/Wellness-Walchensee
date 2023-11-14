@@ -37,3 +37,6 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ---
 
 Happy coding!
+
+Favicon : https://twemoji.twitter.com/
+Icons : <https://fontawesome.com/>
