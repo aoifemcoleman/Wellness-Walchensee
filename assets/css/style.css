@@ -1,6 +1,12 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Spectral+SC:wght@200&display=swap');
 
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 /* header */
 h1 {
     font-family: "Cormorant", serif;
@@ -8,15 +14,21 @@ h1 {
     font-size: xx-large;
     letter-spacing: 3px;
 }
-#logo {
-    text-decoration: none;
-}
 
 a {
     text-decoration: none;
 }
 
 /* Footer */
+footer {
+    margin-top: auto;
+}
 #social-networks {
     list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#social-networks i {
+    font-size: 200%;
 }
