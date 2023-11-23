@@ -42,6 +42,9 @@ a {
     transform: translate(-50%, -50%);
     color: white;
 }
+.hero-text > p {
+    font-size: 1.5em;
+}
 
 nav {
     margin: 1em;
