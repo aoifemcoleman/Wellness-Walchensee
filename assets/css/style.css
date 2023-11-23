@@ -39,8 +39,8 @@ a {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
+    transform: translate(-50%, -50%);
 }
 .hero-text > p {
     font-size: 1.5em;
@@ -51,7 +51,17 @@ nav {
     position: absolute;
     right: 0;
     padding: 0 1rem;
+    color: white;
 }
+
+nav a {
+    color: #00563B;
+}
+
+nav a.active {
+    border-bottom: 1.5px solid #00563B;
+}
+
 #menu {
     list-style-type: none;
     display: flex;
