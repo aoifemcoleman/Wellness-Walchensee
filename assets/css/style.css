@@ -74,9 +74,25 @@ nav a.active {
     letter-spacing: 3px;
 }
 
+/* Main section */
+#about-us {
+    margin: 10px;
+    text-align: center;
+}
+
+#offers {
+    text-align: center;
+}
+
+#offers > p {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* Footer */
 footer {
-    margin-top: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #social-networks {
     list-style-type: none;
