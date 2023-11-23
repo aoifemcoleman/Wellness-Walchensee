@@ -1,6 +1,9 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Spectral+SC:wght@200&display=swap');
 
+* {
+    margin: 0;
+}
 /* General Styles */
 body {
     min-height: 100vh;
