@@ -25,8 +25,8 @@ a {
 }
 
 .hero-image {
-    background-image: url("../images/walchensee-4518931_1280.jpg");
-    height: 100vh;
+    background-image: url("../images/walchensee-4518931_1280.webp");
+    height: 80vh;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
