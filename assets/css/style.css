@@ -3,6 +3,8 @@
 
 * {
     margin: 0;
+    padding: 0;
+    border: none;
 }
 
 /* General Styles */
@@ -18,6 +20,7 @@ h1 {
     text-transform: uppercase;
     font-size: 2.5em;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 a {
