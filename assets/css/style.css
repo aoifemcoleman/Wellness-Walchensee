@@ -80,13 +80,9 @@ nav a.active {
     text-align: center;
 }
 
-#offers {
-    text-align: center;
-}
 
-#offers > p {
-    display: flex;
-    justify-content: space-evenly;
+.offers {
+    text-align: center;
 }
 
 /* Footer */
