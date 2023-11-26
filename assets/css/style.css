@@ -75,14 +75,39 @@ nav a.active {
 }
 
 /* Main section */
-#about-us {
-    margin: 10px;
+
+
+#about-us, #offers {
+    margin: 20px;
     text-align: center;
 }
-
-
 .offers {
+    width: 100vw;
+    height: 15%;
+    margin: 10px;
+    padding: 10px 5px 10px 5px;
     text-align: center;
+    
+}
+
+#meditation {
+    background-color: #1ac6ff;
+}
+
+#sauna {
+    background-color: #47d147;
+}
+
+#yoga {
+    background-color: #ccffff;
+}
+
+#hiking {
+    background-color: #aaff80;
+}
+
+#spa {
+   background-color: #b3ffb3;
 }
 
 /* Footer */
