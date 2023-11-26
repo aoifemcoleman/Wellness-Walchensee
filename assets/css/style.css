@@ -80,14 +80,19 @@ nav a.active {
 #about-us, #offers {
     margin: 20px;
     text-align: center;
+    text-transform: capitalize;
 }
+
+p {
+    text-align: center;
+}
+
 .offers {
     width: 100vw;
     height: 15%;
     margin: 10px;
     padding: 10px 5px 10px 5px;
     text-align: center;
-    
 }
 
 #meditation {
