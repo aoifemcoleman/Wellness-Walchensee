@@ -74,7 +74,7 @@ nav a.active {
 
 /* Main section */
 
-#about-us, #offers {
+#about-us, #offers, #reservation-request {
     margin: 20px;
     text-align: center;
     text-transform: capitalize;
@@ -126,6 +126,10 @@ footer {
 #social-networks i {
     font-size: 200%;
 }
+
+/*reservation.html styles*/
+
+
 
 @media screen and (min-width: 768px) {
     .offers {
