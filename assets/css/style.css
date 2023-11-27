@@ -75,7 +75,7 @@ nav a.active {
 /* Main section */
 
 #about-us, #offers, #reservation-request, #location {
-    margin: 20px;
+    padding: 20px;
     text-align: center;
     text-transform: capitalize;
 }
@@ -143,6 +143,11 @@ footer > p {
 
 footer a {
     color: #D5D0D0;
+}
+
+#contact-details a {
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
 .contact {
