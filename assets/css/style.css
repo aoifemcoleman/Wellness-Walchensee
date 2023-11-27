@@ -125,6 +125,10 @@ footer {
     margin-top: 50px;
     margin-bottom: 10px;
 }
+
+footer > p {
+    text-align: center;
+}
 #social-networks {
     list-style-type: none;
     text-align: center;
