@@ -125,6 +125,7 @@ footer {
     padding-top: 50px;
     padding-bottom: 10px;
     background-color: #110E0D;
+    font-size: medium;
 }
 
 footer > p {
@@ -156,18 +157,22 @@ footer a {
 
 /*reservation.html styles*/
 
-/* @media screen and (min-width: 768px;) {
+/*@media screen and (max-width: 660px) {
+    main {
+        display:flex;
+        flex-direction: column;
+    }
+
     .offers {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
         padding: 30px 10px;
         height: 50px;
         flex: 1;
         margin: 25px;
-    } 
-} */
+    }*/
 
 @media screen and (max-width: 1140px;) {
     .offers {
