@@ -84,7 +84,7 @@ nav a.active {
     text-align: center;
 }
 
-.offers {
+.offers, .contact {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
