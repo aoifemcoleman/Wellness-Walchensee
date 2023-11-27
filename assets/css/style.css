@@ -132,6 +132,18 @@ footer {
 
 /*reservation.html styles*/
 
+/* @media screen and (min-width: 768px;) {
+    .offers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px 10px;
+        height: 50px;
+        flex: 1;
+        margin: 25px;
+    } 
+} */
 
 @media screen and (max-width: 1140px;) {
     .offers {
