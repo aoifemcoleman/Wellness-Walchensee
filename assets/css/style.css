@@ -133,10 +133,14 @@ footer > p {
     list-style-type: none;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
 }
 #social-networks i {
     font-size: 200%;
+}
+
+li > a {
+    color: #00563B;
 }
 
 /*reservation.html styles*/
