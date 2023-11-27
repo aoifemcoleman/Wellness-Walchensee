@@ -74,13 +74,13 @@ nav a.active {
 
 /* Main section */
 
-#about-us, #offers, #reservation-request {
+#about-us, #offers, #reservation-request, #location {
     margin: 20px;
     text-align: center;
     text-transform: capitalize;
 }
 
-p {
+#about-us~p {
     text-align: center;
 }
 
@@ -154,6 +154,4 @@ footer {
         margin: 10px auto;
         min-width: 380px;
     }
-}
-    
 }
