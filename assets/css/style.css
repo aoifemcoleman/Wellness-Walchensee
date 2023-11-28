@@ -160,7 +160,13 @@ footer a {
     list-style-type: circle;
     padding: 10px;
     margin: 10px;
-}   
+}
+
+#package-choice {
+    padding: 10px;
+    margin: 10px;
+    border: 1px groove black;
+}
 
 #reservation-form {
     margin: auto;
@@ -177,23 +183,11 @@ label {
     display: inline-block;
 }
 
-/*@media screen and (max-width: 660px) {
+@media screen and (max-width: 660px) {
     main {
         display:flex;
         flex-direction: column;
     }
-
-    .offers {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        padding: 30px 10px;
-        height: 50px;
-        flex: 1;
-        margin: 25px;
-    }*/
-
 
 @media screen and (max-width: 1140px;) {
     .offers {

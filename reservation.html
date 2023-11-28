@@ -37,9 +37,10 @@
     <main>
         <section>
             <h2 id="packages">Our Packages</h2>
-            <div class="package-choice">
+            <div id="package-choice">
                 <div>
                 <h3>Basic Stay</h3>
+                <p>€180 pp/night</p>
                     <ul class="package-choice">
                         <li>Dinner</li>
                         <li>1 guided class (meditation or yoga)</li>
@@ -49,6 +50,7 @@
                 </div>
                 <div>
                 <h3>Bonus Stay</h3>
+                <p>€250 pp/night</p>
                     <ul class="package-choice">
                         <li>Breakfast and dinner</li>
                         <li>2 guided class</li>
@@ -58,6 +60,7 @@
                 </div>
                 <div>
                 <h3>Premium Stay</h3>
+                <p>€300 pp/night</p>
                     <ul class="package-choice">
                         <li>Breakfast and dinner</li>
                         <li>3 guided classes</li>
@@ -76,12 +79,33 @@
                 <input type="text" id="lname" name="lname" required>
                 <br>
                 <label for="email-address">Email Address</label>
-                <input type="email" id="email-address" name="email-address" required>
+                <input type="email" id="email-address" name="email-address" pattern=".*a*." required>
                 <br>
                 <label for="arrival-date">Date of Arrival</label>
-                <input type="datetime-local" id="arrival-date" name="arrival-date">
+                <input type="date" id="arrival-date" name="arrival-date" required>
                 <br>
-                <label for="package-choice">Chosen Package:</label>
+                <label for="number-of-guests">Number of Guests</label>
+                <input type="number" id="number-of-guests" name="number-of-guests" required>
+                <br>
+                <div class="radio-buttons">
+                    <label for="choose-package">Chosen Package:</label>
+                    <div>
+                        <input type="radio" id="basic-stay" name="choose-package" value="Basic Stay" required>
+                        <label for="basic-stay">Basic Stay</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="bonus-stay" name="choose-package" value="Bonus Stay">
+                        <label for="bonus-stay">Bonus Stay</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="premium-stay" name="choose-package" value="Premium Stay">
+                        <label for="premium-stay">Premium Stay</label>
+                    </div>
+                    <br>
+                    <button type="submit" class="submit-button">Submit</button>
+
+                </div>
+                
             </form>
         </section>
     </main>
