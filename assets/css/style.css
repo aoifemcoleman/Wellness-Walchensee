@@ -73,7 +73,7 @@ nav a.active {
 
 /* Main section */
 
-#about-us, #offers, #reservation-request, #location {
+#about-us, #offers, #reservation-request, #location, #packages {
     padding: 20px;
     text-align: center;
     text-transform: capitalize;
@@ -155,6 +155,13 @@ footer a {
 }
 
 /*reservation.html styles*/
+
+.package-choice {
+    list-style-type: circle;
+    padding: 10px;
+    margin: 10px;
+
+}
 
 #reservation-form {
     margin: auto;
