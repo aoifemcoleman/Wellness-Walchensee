@@ -4,7 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
 }
 
 /* General Styles */
@@ -156,6 +155,21 @@ footer a {
 }
 
 /*reservation.html styles*/
+
+#reservation-form {
+    margin: auto;
+    margin-bottom: 40px;
+    width: 370px;
+}
+
+input[type="text"], input[type="email"] {
+    margin: 5px auto;
+}
+
+label {
+    min-width: 120px;
+    display: inline-block;
+}
 
 /*@media screen and (max-width: 660px) {
     main {
