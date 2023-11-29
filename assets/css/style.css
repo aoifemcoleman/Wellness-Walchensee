@@ -1,5 +1,6 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Spectral+SC:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;700&family=Cormorant+SC:wght@300&family=Spectral+SC:wght@200&display=swap');
 
 * {
     margin: 0;
@@ -73,10 +74,27 @@ nav a.active {
 
 /* Main section */
 
+h2, h3 {
+    font-family: "Arima", serif;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: xx-large;
+    background-color: rgb(252, 253, 253);
+    font-weight: bold;
+}
+
+h3 {
+    color: rgb(17, 60, 62);
+}
+
 .offers {
     padding: 20px 20px;
     width: 90%;
     margin: 20px 20px;
+    background-color: rgb(153, 221, 255);
+    color:  #007399;
 }
 
 #hiking-image {
@@ -176,6 +194,9 @@ footer a {
     padding: 10px;
     margin: 10px;
     border: 1px groove black;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 #reservation-form {
@@ -196,19 +217,4 @@ label {
     display: inline-block;
 }
 
-@media screen and (max-width: 660px) {
-    main {
-        display:flex;
-        flex-direction: column;
-    }
-
-@media screen and (max-width: 1140px;) {
-    .offers {
-        flex-direction: column;
-    }
-
-    .offers > div {
-        margin: 10px auto;
-        min-width: 380px;
-    }
 }
