@@ -89,15 +89,15 @@ h3 {
     color: rgb(17, 60, 62);
 }
 
+
 .offers {
     padding: 20px 20px;
     width: 90%;
     margin: 20px 20px;
-    background-color: rgb(153, 221, 255);
     color:  #007399;
 }
 
-#hiking-image {
+.offers img {
     width: 40%;
 }
 
@@ -122,11 +122,14 @@ h3 {
     margin: 1%;
 }
 
-/*#meditation {
-    background-color: #1ac6ff;
+#meditation, #hiking, #spa {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
-#sauna {
+/* #sauna {
     background-color: #47d147;
 }
 
@@ -215,6 +218,4 @@ input[type="text"], input[type="email"] {
 label {
     min-width: 120px;
     display: inline-block;
-}
-
 }
