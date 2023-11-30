@@ -158,6 +158,10 @@ footer {
     font-size: medium;
 }
 
+footer h3 {
+    color: white;
+}
+
 footer > p {
     text-align: center;
     color: #D5D0D0;
