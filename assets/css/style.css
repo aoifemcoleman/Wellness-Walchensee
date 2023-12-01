@@ -156,6 +156,7 @@ h3 {
 #map {
     width: 100%;
     height: 60vh;
+    padding-bottom: 5em;
 }
 
 /* Footer */
@@ -195,6 +196,7 @@ footer a {
 
 .contact {
     color: #D5D0D0;
+    /*padding: 5em;*/
 }
 
 /*reservation.html styles*/
