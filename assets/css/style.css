@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Spectral+SC:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;700&family=Cormorant+SC:wght@300&family=Spectral+SC:wght@200&display=swap');
 
+:root {
+--pale-azure: #99E1FEff;
+--bleu-de-france: #4585D5ff;
+--light-blue: #C9F1FEff;
+--white: #ffffff;
+--olive: #7A8B22ff;
+--ebony: #4A5134ff;
+}
 * {
     margin: 0;
     padding: 0;
