@@ -108,8 +108,25 @@ h3 {
     text-align: center;
 }
 
+.offers-container {
+    margin-inline: auto;
+    max-width: 80vw;
+    width: min(90%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}    
+.offers-text {
+    padding: 10px;
+    font-size: 1.5em;
+}
 
-.offers {
+.offers-img {
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*.offers {
     padding: 20px 20px;
     width: 90%;
     margin: 20px 20px;
@@ -118,14 +135,14 @@ h3 {
 
 .offers img {
     width: 40%;
-}
+}*/
 
 #about-us {
    margin-block: 1rem;
    padding-inline: 3rem;
 }
 
-/*.offers,*/ .contact {
+.contact {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -136,28 +153,6 @@ h3 {
     margin: 1%;
 }
 
-#meditation, #hiking, #spa {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-end;
-}
-
-/* #sauna {
-    background-color: #47d147;
-}
-
-#yoga {
-    background-color: #ccffff;
-}
-
-#hiking {
-    background-color: #aaff80;
-}
-
-#spa {
-   background-color: #b3ffb3;
-}*/
 
 #map {
     width: 100%;
@@ -238,6 +233,14 @@ label {
 }
 
 /*Media queries*/
+
+/*Smartphones under 640px*/
+@media screen and (max-width: 640px) {
+
+    body {
+        width: 100%;
+    }
+}
 
 /*Larger smartphones and small tablets*/
 @media screen and (min-width: 480px) {
