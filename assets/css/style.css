@@ -88,6 +88,9 @@ h2, h3 {
 }
 
 h2 {
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
     font-size: xx-large;
     background-color: rgb(252, 253, 253);
     font-weight: bold;
@@ -95,6 +98,14 @@ h2 {
 
 h3 {
     color: rgb(17, 60, 62);
+}
+
+.about-us-p {
+    font-size: 1.5em;
+}
+
+.text-center {
+    text-align: center;
 }
 
 
@@ -109,14 +120,9 @@ h3 {
     width: 40%;
 }
 
-#about-us, #offers, #reservation-request, #location, #packages {
-    padding: 20px;
-    text-align: center;
-    text-transform: capitalize;
-}
-
-#about-us~p {
-    text-align: center;
+#about-us {
+   margin-block: 1rem;
+   padding-inline: 3rem;
 }
 
 /*.offers,*/ .contact {
@@ -196,7 +202,6 @@ footer a {
 
 .contact {
     color: #D5D0D0;
-    /*padding: 5em;*/
 }
 
 /*reservation.html styles*/
@@ -222,8 +227,6 @@ footer a {
     width: 370px;
 }
 
-#window-image {
-}
 
 input[type="text"], input[type="email"] {
     margin: 5px auto;
@@ -232,4 +235,29 @@ input[type="text"], input[type="email"] {
 label {
     min-width: 120px;
     display: inline-block;
+}
+
+/*Media queries*/
+
+/*Larger smartphones and small tablets*/
+@media screen and (min-width: 480px) {
+    #about-us {
+        padding-inline: 5rem;
+    }
+}
+
+/*Larger tablets and laptops in landscape mode*/
+@media screen and (min-width: 768px) {
+    #about-us {
+        margin-block: 3rem;
+        padding-inline: 8rem;
+     }
+}
+
+/*Most laptops and desktops*/
+@media screen and (min-width: 1024px) {
+    #about-us {
+        margin-block: 3rem;
+        padding-inline: 15rem;
+    }
 }
