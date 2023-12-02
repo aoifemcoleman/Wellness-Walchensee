@@ -131,10 +131,6 @@ p {
 
 .offers-container {
     padding-top: 2em;
-    margin: 0 0 3em 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
     padding-block: 4em;
 }    
 .offers-text {
@@ -143,8 +139,10 @@ p {
 }
 
 .offers-img {
-    margin-bottom: 10px;
-    width: 100%;
+    margin: 0 auto;
+    padding-top: 2em;
+    display: block;
+    max-width: 60%;
 }
 
 .bleu-de-france {
@@ -256,7 +254,7 @@ footer a {
 
 #package-img {
     margin-block: 1em;
-    width: 100%;
+    width: 80%;
 }
 
 #reservation-form {
