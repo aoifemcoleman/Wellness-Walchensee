@@ -166,6 +166,9 @@ h3 {
     color: var(--light-blue);
 }
 
+.ebony h3 {
+    color: var(--pale-azure);
+}
 #about-us {
    margin-block: 1rem;
    padding-inline: 3rem;
