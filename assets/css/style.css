@@ -109,7 +109,7 @@ h3 {
 }
 
 #offers-header {
-    background-color: var(--light-blue);
+    background-color: var(--pale-azure);
     color: var(--ebony);
     margin-top: 1em;
 }
@@ -119,8 +119,6 @@ h3 {
     margin: 0 0 3em 0;
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--bleu-de-france);
-    color: white;
 }    
 .offers-text {
     padding: 10px;
@@ -130,6 +128,13 @@ h3 {
 .offers-img {
     margin-bottom: 10px;
     width: 100%;
+}
+
+.bleu-de-france {
+    background-color: var(--bleu-de-france);
+    color: white;
+    padding-top: 2em;
+    margin: 0 0 3em 0;
 }
 
 /*.offers {
@@ -273,11 +278,10 @@ label {
     .offers-text {
         max-width: 50%;
         padding-left: 0.5em;
-        margin-left: 5em;
     }
 
     .offers-img {
-        max-width: 50%;
+        width: 400px;
     }
 
     .offers-container {
@@ -286,5 +290,9 @@ label {
         flex-wrap: nowrap;
         justify-content: space-evenly;
         gap: 5em;
-    }    
+    } 
+    
+    .image-left {
+        flex-direction: row-reverse;
+    }
 }
