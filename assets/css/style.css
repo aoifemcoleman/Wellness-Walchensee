@@ -228,19 +228,29 @@ footer a {
 
 /*reservation.html styles*/
 
+.packages-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: 1em;
+    padding-inline: 2em;
+    background-color: var(--light-blue);
+}
+
 .package-choice {
     list-style-type: circle;
     padding: 10px;
     margin: 10px;
 }
 
-#package-choice {
-    padding: 10px;
-    margin: 10px;
-    border: 1px groove black;
-    max-width: 100%;
+.packages-text {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#package-img {
+    margin-block: 1em;
+    width: 100%;
 }
 
 #reservation-form {
