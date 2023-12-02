@@ -25,7 +25,7 @@ body {
 h1 {
     font-family: "Cormorant", serif;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
     letter-spacing: 3px;
     text-align: center;
 }
@@ -296,6 +296,30 @@ label {
         margin-block: 2rem;
         padding-inline: 8rem;
      }
+     .offers-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } 
+
+    .offers-text {
+        width: 60%;
+        padding-inline: 3em;
+    }
+
+    .offers-img {
+        width: 60vw;
+    }
+
+    .offers-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } 
+    
+    .image-left {
+        flex-direction: row-reverse;
+    }
 }
 
 /*Most laptops and desktops*/
