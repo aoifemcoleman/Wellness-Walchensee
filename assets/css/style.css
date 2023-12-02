@@ -119,6 +119,7 @@ h3 {
     margin: 0 0 3em 0;
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
 }    
 .offers-text {
     padding: 10px;
@@ -134,19 +135,14 @@ h3 {
     background-color: var(--bleu-de-france);
     color: white;
     padding-top: 2em;
-    margin: 0 0 3em 0;
+    
 }
 
-/*.offers {
-    padding: 20px 20px;
-    width: 90%;
-    margin: 20px 20px;
-    color:  #007399;
+.light-blue {
+    background-color: var(--light-blue);
+    padding-top: 2em;
+   
 }
-
-.offers img {
-    width: 40%;
-}*/
 
 #about-us {
    margin-block: 1rem;
