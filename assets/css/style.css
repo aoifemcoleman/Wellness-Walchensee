@@ -108,13 +108,19 @@ h3 {
     text-align: center;
 }
 
+#offers-header {
+    background-color: var(--light-blue);
+    color: var(--ebony);
+    margin-top: 1em;
+}
+
 .offers-container {
-    margin-inline: auto;
-    max-width: 80vw;
-    width: min(90%);
+    padding-top: 2em;
+    margin: 0 0 3em 0;
     display: flex;
     flex-wrap: wrap;
-    flex-basis: auto;
+    background-color: var(--bleu-de-france);
+    color: white;
 }    
 .offers-text {
     padding: 10px;
@@ -123,7 +129,7 @@ h3 {
 
 .offers-img {
     margin-bottom: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 /*.offers {
@@ -263,4 +269,22 @@ label {
         margin-block: 3rem;
         padding-inline: 15rem;
     }
+
+    .offers-text {
+        max-width: 50%;
+        padding-left: 0.5em;
+        margin-left: 5em;
+    }
+
+    .offers-img {
+        max-width: 50%;
+    }
+
+    .offers-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        gap: 5em;
+    }    
 }
