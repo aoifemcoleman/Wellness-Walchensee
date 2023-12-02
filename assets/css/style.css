@@ -192,7 +192,7 @@ footer {
     padding-top: 50px;
     padding-bottom: 10px;
     background-color: #110E0D;
-    font-size: medium;
+    font-size: 1em;
 }
 
 footer h3 {
@@ -219,7 +219,6 @@ footer a {
 
 #contact-details a {
     font-weight: bold;
-    text-transform: capitalize;
 }
 
 .contact {
