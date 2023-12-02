@@ -10,6 +10,7 @@
 --olive: #7A8B22ff;
 --ebony: #4A5134ff;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +25,7 @@ body {
 h1 {
     font-family: "Cormorant", serif;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 3rem;
     letter-spacing: 3px;
     text-align: center;
 }
@@ -84,7 +85,7 @@ nav a.active {
 /* Main section */
 
 h2, h3 {
-    font-family: "Arima", serif;
+    font-family: "Commorant", serif;
     letter-spacing: 2px;
 }
 
@@ -115,8 +116,8 @@ h3 {
     background-color: var(--bleu-de-france);
     color: white;
     margin-top: 1em;
-    font-weight: 1000;
-    font-size: 4em;
+    font-weight: 600;
+    font-size: 2em;
     letter-spacing: 3px;
 }
 
@@ -141,6 +142,7 @@ h3 {
 .bleu-de-france {
     background-color: var(--bleu-de-france);
     color: white;
+    padding-top: 0;
     
 }
 
