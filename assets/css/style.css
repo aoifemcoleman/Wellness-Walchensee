@@ -51,6 +51,10 @@ a {
     color: white;
     transform: translate(-50%, -50%);
 }
+
+h1 {
+    font-size: 3.5vw;
+}
 .hero-text > p {
     font-size: 1.5em;
 }
