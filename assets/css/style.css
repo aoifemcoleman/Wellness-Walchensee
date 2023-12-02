@@ -124,6 +124,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
+    padding-block: 4em;
 }    
 .offers-text {
     padding: 10px;
@@ -138,14 +139,16 @@ h3 {
 .bleu-de-france {
     background-color: var(--bleu-de-france);
     color: white;
-    padding-top: 2em;
     
 }
 
 .light-blue {
     background-color: var(--light-blue);
-    padding-top: 2em;
    
+}
+
+.olive {
+    background-color: var(--olive);
 }
 
 #about-us {
