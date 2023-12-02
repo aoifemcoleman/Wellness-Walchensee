@@ -151,6 +151,14 @@ h3 {
     background-color: var(--olive);
 }
 
+.pale-azure {
+    background-color: var(--pale-azure);
+}
+
+.ebony {
+    background-color: var(--ebony);
+}
+
 #about-us {
    margin-block: 1rem;
    padding-inline: 3rem;
