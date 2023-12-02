@@ -306,20 +306,18 @@ label {
     }
 
     .offers-text {
-        max-width: 50%;
-        padding-left: 0.5em;
+        width: 60%;
+        padding-inline: 3em;
     }
 
     .offers-img {
-        width: 400px;
+        width: 60vw;
     }
 
     .offers-container {
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        gap: 5em;
+        justify-content: space-around;
     } 
     
     .image-left {
