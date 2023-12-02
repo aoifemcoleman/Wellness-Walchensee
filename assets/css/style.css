@@ -265,13 +265,15 @@ footer a {
 #reservation-form {
     margin: auto;
     margin-bottom: 40px;
-    width: 370px;
+    width: 300px;
+    padding-block: 1em;
+    padding-inline: 2em;
 }
 
 
-input[type="text"], input[type="email"] {
+/*input[type="text"], input[type="email"] {
     margin: 5px auto;
-}
+}*/
 
 label {
     min-width: 120px;

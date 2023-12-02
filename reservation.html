@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Walchensee Wonder. Luxury lodging with wellness facilities in Bavarian Alps. Meditation, yoga, sauna, spa and guided hiking.">
-    <meta name="keywords" content="walchensee, wellness, luxury lodge, luxury hotel, alps, bavaria, bavarian alps, meditation, yoga, sauna, spa">
+    <meta name="description"
+        content="Walchensee Wonder. Luxury lodging with wellness facilities in Bavarian Alps. Meditation, yoga, sauna, spa and guided hiking.">
+    <meta name="keywords"
+        content="walchensee, wellness, luxury lodge, luxury hotel, alps, bavaria, bavarian alps, meditation, yoga, sauna, spa">
     <title>Walchensee Wonder</title>
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -16,6 +19,7 @@
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <div class="hero-image">
@@ -23,13 +27,13 @@
                 <h1>Walchensee Wonder</h1>
                 <p>Luxury Alpine lodging</p>
             </div>
-           
+
             <nav>
                 <ul id="menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="reservation.html" class="active">Reservation</a></li>
-                    </ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="reservation.html" class="active">Reservation</a></li>
+                </ul>
             </nav>
             </a>
         </div>
@@ -37,96 +41,97 @@
     <main>
         <section>
             <div>
-            <h2>Our Packages</h2>
-            <div class="packages-container">
-                <div class="packages-text">
-                <div>
-                <h3>Basic Stay</h3>
-                <p>€180 pp/night</p>
-                    <ul class="package-choice">
-                        <li>Dinner</li>
-                        <li>1 guided class (meditation or yoga)</li>
-                        <li>30 minute sauna experience</li>
-                        <li>1 hour spa (2 treatments)</li>
-                    </ul>
-                </div>
-                <div>
-                <h3>Bonus Stay</h3>
-                <p>€250 pp/night</p>
-                    <ul class="package-choice">
-                        <li>Breakfast and dinner</li>
-                        <li>2 guided class</li>
-                        <li>30 minute sauna experience</li>
-                        <li>2 hour spa (3 treatments)</li>
-                    </ul>
-                </div>
-                </div>
-                <div>
-                <h3>Premium Stay</h3>
-                <p>€300 pp/night</p>
-                    <ul class="package-choice">
-                        <li>Breakfast and dinner</li>
-                        <li>3 guided classes</li>
-                        <li>45 minute sauna experience</li>
-                        <li>3 hour spa (unlimited treatments)</li>
-                    </ul>
-                </div>
-                <div>
-                <img id="package-img" src="assets/images/window-3178666_640.jpg" id="window-image" alt="An image of a bedroom with floor-ceiling windows with mountain view">
-                </div>
-            </div>
-        <section>   
-            <h2 id="reservation-request">Make a Reservation Request</h2>
-            <form id="reservation-form" method="POST" action="https://formdump.codeinstitute.net">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="fname" required>
-                <br>
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lname" required>
-                <br>
-                <label for="email-address">Email Address</label>
-                <input type="email" id="email-address" name="email-address" pattern=".*a*." required>
-                <br>
-                <label for="arrival-date">Date of Arrival</label>
-                <input type="date" id="arrival-date" name="arrival-date" required>
-                <br>
-                <label for="number-of-guests">Number of Guests</label>
-                <input type="number" id="number-of-guests" name="number-of-guests" required>
-                <br>
-                <div class="radio-buttons">
-                    <label for="choose-package">Chosen Package:</label>
-                    <div>
-                        <input type="radio" id="basic-stay" name="choose-package" value="Basic Stay" required>
-                        <label for="basic-stay">Basic Stay</label>
+                <h2>Our Packages</h2>
+                <div class="packages-container">
+                    <div class="packages-text">
+                        <div>
+                            <h3>Basic Stay</h3>
+                            <p>€180 pp/night</p>
+                            <ul class="package-choice">
+                                <li>Dinner</li>
+                                <li>1 guided class (meditation or yoga)</li>
+                                <li>30 minute sauna experience</li>
+                                <li>1 hour spa (2 treatments)</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Bonus Stay</h3>
+                            <p>€250 pp/night</p>
+                            <ul class="package-choice">
+                                <li>Breakfast and dinner</li>
+                                <li>2 guided class</li>
+                                <li>30 minute sauna experience</li>
+                                <li>2 hour spa (3 treatments)</li>
+                            </ul>
+                        </div>
                     </div>
                     <div>
-                        <input type="radio" id="bonus-stay" name="choose-package" value="Bonus Stay">
-                        <label for="bonus-stay">Bonus Stay</label>
+                        <h3>Premium Stay</h3>
+                        <p>€300 pp/night</p>
+                        <ul class="package-choice">
+                            <li>Breakfast and dinner</li>
+                            <li>3 guided classes</li>
+                            <li>45 minute sauna experience</li>
+                            <li>3 hour spa (unlimited treatments)</li>
+                        </ul>
                     </div>
                     <div>
-                        <input type="radio" id="premium-stay" name="choose-package" value="Premium Stay">
-                        <label for="premium-stay">Premium Stay</label>
+                        <img id="package-img" src="assets/images/window-3178666_640.jpg" id="window-image"
+                            alt="An image of a bedroom with floor-ceiling windows with mountain view">
                     </div>
-                    <br>
-                    <button type="submit" class="submit-button">Submit</button>
+                </div>
+                <section>
+                    <h2 id="reservation-request">Make a Reservation Request</h2>
+                    <form id="reservation-form" method="POST" action="https://formdump.codeinstitute.net">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="fname" required>
+                        <br>
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lname" required>
+                        <br>
+                        <label for="email-address">Email Address</label>
+                        <input type="email" id="email-address" name="email-address" pattern=".*a*." required>
+                        <br>
+                        <label for="arrival-date">Date of Arrival</label>
+                        <input type="date" id="arrival-date" name="arrival-date" required>
+                        <br>
+                        <label for="number-of-guests">Number of Guests</label>
+                        <input type="number" id="number-of-guests" name="number-of-guests" required>
+                        <br>
+                        <div class="radio-buttons">
+                            <label for="choose-package">Chosen Package:</label>
+                            <div>
+                                <input type="radio" id="basic-stay" name="choose-package" value="Basic Stay" required>
+                                <label for="basic-stay">Basic Stay</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="bonus-stay" name="choose-package" value="Bonus Stay">
+                                <label for="bonus-stay">Bonus Stay</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="premium-stay" name="choose-package" value="Premium Stay">
+                                <label for="premium-stay">Premium Stay</label>
+                            </div>
+                            <br>
+                            <button type="submit" class="submit-button">Submit</button>
 
-                </div>
-                
-            </form>
-        </section>
+                        </div>
+
+                    </form>
+                </section>
     </main>
     <footer>
         <section>
             <div class="contact">
-            <div>
-            <h3>Address:</h3>
-            <p>Am Tanneneck 6,<br>82432,<br>Kochel am See</p>
-            </div>
-            <div id="contact-details">
-            <h3>Contact Us:</h3>
-            <p><i class="fa-solid fa-phone"></i> +49 879 987 654</p>
-            <p><i class="fa-regular fa-envelope"></i> walchenseewonder@gmail.com</p>
-            </div>
+                <div>
+                    <h3>Address:</h3>
+                    <p>Am Tanneneck 6,<br>82432,<br>Kochel am See</p>
+                </div>
+                <div id="contact-details">
+                    <h3>Contact Us:</h3>
+                    <p><i class="fa-solid fa-phone"></i> +49 879 987 654</p>
+                    <p><i class="fa-regular fa-envelope"></i> walchenseewonder@gmail.com</p>
+                </div>
         </section>
         <ul id="social-networks">
             <li>
@@ -154,4 +159,5 @@
         <p>© 2023 Walchensee Wonder</p>
     </footer>
 </body>
+
 </html>
