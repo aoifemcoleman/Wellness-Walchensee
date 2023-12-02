@@ -52,9 +52,6 @@ a {
     transform: translate(-50%, -50%);
 }
 
-h1 {
-    font-size: 3vw;
-}
 .hero-text > p {
     font-size: 1.5em;
 }
@@ -98,6 +95,7 @@ h2 {
     font-size: xx-large;
     background-color: rgb(252, 253, 253);
     font-weight: bold;
+    color: var(--bleu-de-france);
 }
 
 h3 {
