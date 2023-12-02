@@ -271,9 +271,9 @@ footer a {
 }
 
 
-/*input[type="text"], input[type="email"] {
+input[type="text"], input[type="email"] {
     margin: 5px auto;
-}*/
+}
 
 label {
     min-width: 120px;
@@ -326,6 +326,14 @@ label {
     
     .image-left {
         flex-direction: row-reverse;
+    }
+
+    .packages-text {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
     }
 }
 
