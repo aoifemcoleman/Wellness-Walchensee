@@ -171,9 +171,12 @@ p {
     color: var(--light-blue);
 }
 
-.ebony h3 {
-    color: var(--pale-azure);
+.ebony h3,
+.bleu-de-france h3,
+.olive h3 {
+    color: var(--light-blue);
 }
+
 #about-us-section {
    margin-block: 1rem;
    padding-inline: 3rem;
