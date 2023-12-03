@@ -217,7 +217,7 @@ p {
 
 #gallery h2 {
     padding-block: 2em 2em;
-    padding-inline: 3em;
+    padding-inline: 1em;
     text-transform: none;
 }
 
@@ -398,6 +398,10 @@ label {
     }
 
     /* Gallery */
+
+    #gallery h2 {
+        padding-inline: 3em;
+    }
 
     #gallery-photos {
         column-count: 2;
