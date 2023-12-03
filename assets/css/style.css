@@ -368,12 +368,13 @@ label {
         border-radius: 1em;
     }
 
+    /*Reservation */
+
     .packages-text {
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        width: 100%;
     }
 }
 
@@ -408,4 +409,3 @@ label {
         column-count: 3;
     }
 }
- 
