@@ -192,6 +192,15 @@ p {
     padding-block: 1em;
 }
 
+/* Gallery */
+
+#gallery-photos {
+    line-height: 0;
+}
+#gallery-photos img {
+    width: 100%;
+}
+
 /* Footer */
 footer {
     padding-top: 50px;
