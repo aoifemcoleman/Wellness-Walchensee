@@ -294,14 +294,6 @@ label {
 
 /*Media queries*/
 
-/*Smartphones under 640px*/
-@media screen and (max-width: 640px) {
-
-    body {
-        width: 100%;
-    }
-}
-
 /*Larger smartphones and small tablets*/
 @media screen and (min-width: 480px) {
     #about-us-section {
