@@ -1,5 +1,5 @@
 /* Google Fonts Import */
-  @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;700&family=Cormorant+SC:wght@300&family=Raleway:wght@200&family=Spectral+SC:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;700&family=Cormorant+SC:wght@300&family=Raleway:wght@200;300;400;500&family=Spectral+SC:wght@200&display=swap');
 
 :root {
 --pale-azure: #99E1FEff;
@@ -160,7 +160,8 @@ p {
 
 .bleu-de-france {
     background-color: var(--bleu-de-france);
-    color: white;
+    color: black;
+    font-weight: 500;
     padding-top: 0;
     
 }
@@ -184,9 +185,12 @@ p {
 }
 
 .ebony h3,
-.bleu-de-france h3,
 .olive h3 {
     color: var(--light-blue);
+}
+
+.bleu-de-france h3 {
+    color: white;
 }
 
 #about-us-section {
