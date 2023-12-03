@@ -14,6 +14,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* General Styles */
@@ -350,6 +351,20 @@ label {
     padding-top: 3em;
     padding-bottom: 5em;
     font-size: 1.4em;
+    }
+
+    /* Gallery */
+
+    #gallery-photos {
+        column-count: 2;
+    }
+
+    #gallery-photos img {
+       width: 95%;
+        margin-block: 1em;
+        margin-left: 1em;
+        border: #ffffff;
+        border-radius: 1em;
     }
 
     .packages-text {
