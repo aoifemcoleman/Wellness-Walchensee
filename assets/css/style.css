@@ -85,7 +85,7 @@ nav a.active {
 /* Main section */
 
 h2, h3 {
-    font-family: "Commorant", serif;
+    font-family: "Cormorant", serif;
     letter-spacing: 2px;
 }
 
@@ -100,12 +100,11 @@ h2 {
 }
 
 h3 {
-    color: rgb(17, 60, 62);
     padding-bottom: 1em;
 }
 
 p {
-    font-family: adobe-garamond-pro,serif;
+    font-family: "Spectral",serif;
     font-size: 0.8em;
 }
 
@@ -225,13 +224,17 @@ footer a {
 
 .contact {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-top: 3em;
-    padding-bottom: 5em;
-    font-size: 1em;
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-size: 1.3em;
     color: #D5D0D0;
+}
+
+.contact h3 {
+    padding-bottom: 0.5em;
 }
 
 .contact a {
@@ -366,3 +369,12 @@ label {
         flex-direction: row-reverse;
     }
 }
+
+/*display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    font-size: 1.3em;
+    color: #D5D0D0;*/
