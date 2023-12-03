@@ -257,9 +257,9 @@ footer a {
 .packages-container {
     display: flex;
     justify-content: center;
-    padding-block: 1em;
+    padding-block: 2em;
     padding-inline: 2em;
-    background-color: var(--light-blue);
+    background-color: var(--pale-azure);
 }
 
 .package-choice {
@@ -341,12 +341,12 @@ label {
     }
 
     .contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 3em;
-    padding-bottom: 5em;
-    font-size: 1.4em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 3em;
+        padding-bottom: 5em;
+        font-size: 1.4em;
     }
 
     /* Gallery */
