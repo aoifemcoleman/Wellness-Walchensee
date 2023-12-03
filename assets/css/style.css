@@ -58,29 +58,42 @@ a {
     font-size: 1.5em;
 }
 
-nav {
-    margin: 1em;
-    position: absolute;
-    right: 0;
-    padding: 0 1rem;
-    color: white;
-}
-
 nav a {
     color: #00563B;
 }
 
-nav a.active {
-    border-bottom: 1.5px solid #00563B;
+#menu {
+    display: block;
 }
 
+#menu a {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#burger-nav label {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 2em;
+    margin: 0.5em 0.5em;
+}
+
+/* Hide menu by default */
 #menu {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    font-size: 150%;
-    letter-spacing: 3px;
+    display: none;
+    right: 0;
+}
+
+/* Hide checkbox */
+#burger-icon {
+    display: none;
+}
+
+/*Toggle checkbox to show/hide */
+
+#burger-nav input:checked ~ #menu {
+    display: block;
 }
 
 /* Main section */
@@ -303,6 +316,40 @@ label {
 
 /*Larger tablets and laptops in landscape mode*/
 @media screen and (min-width: 768px) {
+    nav {
+        margin: 1em;
+        position: absolute;
+        right: 0;
+        padding: 0 1rem;
+        background-color: none;
+    }
+
+ /*Hide burger icon on larger screens */
+
+ #burger-nav label, #burger-icon {
+    display: none;
+ }
+
+ #menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 150%;
+    letter-spacing: 3px;
+    width: 100%;
+}
+
+nav a.active {
+    border-bottom: 1.5px solid #00563B;
+}
+
+nav a:hover {
+    color: var(--ebony);
+    font-weight: 550;
+}
+    
+    
     #about-us-section {
         margin-block: 2rem;
         padding-inline: 8rem;
