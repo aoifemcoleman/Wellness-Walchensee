@@ -1,6 +1,5 @@
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Spectral+SC:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;700&family=Cormorant+SC:wght@300&family=Spectral+SC:wght@200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;700&family=Cormorant+SC:wght@300&family=Raleway:wght@200&family=Spectral+SC:wght@200&display=swap');
 
 :root {
 --pale-azure: #99E1FEff;
@@ -99,7 +98,7 @@ nav a {
 /* Main section */
 
 h2, h3 {
-    font-family: "Cormorant", serif;
+    font-family: "Raleway", serif;
     letter-spacing: 2px;
 }
 
@@ -118,7 +117,7 @@ h3 {
 }
 
 p {
-    font-family: "Spectral",serif;
+    font-family: "Raleway",serif;
     font-size: 0.8em;
 }
 
@@ -216,6 +215,12 @@ p {
     line-height: 1em;
 }
 
+#gallery h2 {
+    padding-block: 2em 2em;
+    padding-inline: 3em;
+    text-transform: none;
+}
+
 /* Footer */
 footer {
     padding-top: 50px;
@@ -258,7 +263,12 @@ footer a {
 }
 
 .contact h3 {
+    font-family: "Spectral", serif;
     padding-bottom: 0.5em;
+}
+
+.contact p {
+    font-family: "Spectral", serif;
 }
 
 .contact a {
