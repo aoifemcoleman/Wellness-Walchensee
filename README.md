@@ -75,6 +75,15 @@ HTML
 
 ## Deployment
 
+The site was deployed to GitHub using the following steps:
+
+1. From the repository page, click on `Settings` in the navbar.
+2. On the left side of the page, in the `Code and Automation` section, select `Pages`.
+3. Under `Build and development`, the source should be set to `Deploy from a branch`.
+4. Under `Branch` select `Main`, then `/root` and press `Save`.
+5. Navigate back to the `<>Code` page in the navbar.
+6. On the right side of the page, under `Deployments` you will see a link to `github-pages`, within which you can click on the expand icon to view the deployed website.
+
 ## Credits
 
 ### Contents
