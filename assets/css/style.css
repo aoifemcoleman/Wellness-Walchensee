@@ -76,7 +76,6 @@ nav a.active {
 }
 
 nav a:hover {
-    color: var(--ebony);
     font-weight: 550;
 }
 
@@ -363,14 +362,11 @@ label {
         letter-spacing: 3px;
 }
 
+
 #menu a {
     background-color: transparent;
     padding-left: 0;
-}
-
-    nav a:hover {
-        color: var(--ebony);
-        font-weight: 550;
+    font-size: 1em;
 }
     
     #about-us-section {
