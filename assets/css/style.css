@@ -57,10 +57,6 @@ a {
     font-size: 1.5em;
 }
 
-nav a {
-    color: #00563B;
-}
-
 #menu {
     display: block;
 }
@@ -69,13 +65,27 @@ nav a {
     display: block;
     width: 100%;
     box-sizing: border-box;
+    color: #00563B;
+    font-size: 150%;
+    padding-left: 0.7em;
+    background-color: var(--white);
+}
+
+nav a.active {
+    border-bottom: 1.5px solid #00563B;
+}
+
+nav a:hover {
+    color: var(--ebony);
+    font-weight: 550;
 }
 
 #burger-nav label {
     display: inline-block;
     color: #ffffff;
     font-size: 2em;
-    margin: 0.5em 0.5em;
+    margin-top: 0.2em;
+    margin-left: 0.7em;
 }
 
 /* Hide menu by default */
@@ -353,15 +363,15 @@ label {
         letter-spacing: 3px;
 }
 
-    nav a.active {
-        border-bottom: 1.5px solid #00563B;
+#menu a {
+    background-color: transparent;
+    padding-left: 0;
 }
 
     nav a:hover {
         color: var(--ebony);
         font-weight: 550;
 }
-    
     
     #about-us-section {
         margin-block: 2rem;
