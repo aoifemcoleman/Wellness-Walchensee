@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;700&family=Cormorant+SC:wght@300&family=Raleway:wght@200;300;400;500&family=Spectral+SC:wght@200&display=swap');
 
 :root {
---pale-azure: #99E1FEff;
---bleu-de-france: #4585D5ff;
---light-blue: #C9F1FEff;
---white: #ffffff;
---olive: #7A8B22ff;
---ebony: #4A5134ff;
+    --pale-azure: #99E1FEff;
+    --bleu-de-france: #4585D5ff;
+    --light-blue: #C9F1FEff;
+    --white: #ffffff;
+    --olive: #7A8B22ff;
+    --ebony: #4A5134ff;
 }
 
 * {
@@ -30,10 +30,7 @@ h1 {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-}
-
+/* Idea for, and code taken for hero-image and hero-text from W3 Schools: https://www.w3schools.com/howto/howto_css_hero_image.asp and modified*/
 .hero-image {
     background-image: url("../images/walchensee-4518931_1280.webp");
     height: 80vh;
@@ -53,10 +50,12 @@ a {
     transform: translate(-50%, -50%);
 }
 
-.hero-text > p {
+.hero-text>p {
     font-size: 1.5em;
 }
 
+/* Navbar */
+/*Code snippets for navbar and menu taken from Love Running project and video tutorial: https://www.youtube.com/watch?v=4996fn82c4c*/
 #menu {
     display: block;
 }
@@ -69,6 +68,10 @@ a {
     font-size: 150%;
     padding-left: 0.7em;
     background-color: var(--white);
+}
+
+a {
+    text-decoration: none;
 }
 
 nav a.active {
@@ -100,13 +103,14 @@ nav a:hover {
 
 /*Toggle checkbox to show/hide */
 
-#burger-nav input:checked ~ #menu {
+#burger-nav input:checked~#menu {
     display: block;
 }
 
 /* Main section */
 
-h2, h3 {
+h2,
+h3 {
     font-family: "Raleway", serif;
     letter-spacing: 2px;
 }
@@ -126,7 +130,7 @@ h3 {
 }
 
 p {
-    font-family: "Raleway",serif;
+    font-family: "Raleway", serif;
     font-size: 0.8em;
 }
 
@@ -135,7 +139,7 @@ p {
     padding-top: 2em;
 }
 
-
+/* Idea for using this as a class taken from video tutorial here: https://www.youtube.com/watch?v=bn-DQCifeQQ&t=1557s */
 .text-center {
     text-align: center;
 }
@@ -153,7 +157,8 @@ p {
 .offers-container {
     padding-top: 2em;
     padding-block: 4em;
-}    
+}
+
 .offers-text {
     padding: 10px;
     font-size: 1.5em;
@@ -172,12 +177,12 @@ p {
     color: black;
     font-weight: 500;
     padding-top: 0;
-    
+
 }
 
 .light-blue {
     background-color: var(--light-blue);
-   
+
 }
 
 .olive {
@@ -203,8 +208,8 @@ p {
 }
 
 #about-us-section {
-   margin-block: 1rem;
-   padding-inline: 3rem;
+    margin-block: 1rem;
+    padding-inline: 3rem;
 }
 
 
@@ -223,6 +228,7 @@ p {
 #gallery-photos {
     line-height: 0;
 }
+
 #gallery-photos img {
     width: 100%;
     line-height: 1em;
@@ -246,16 +252,18 @@ footer h3 {
     color: white;
 }
 
-footer > p {
+footer>p {
     text-align: center;
     color: #D5D0D0;
 }
+
 #social-networks {
     list-style-type: none;
     text-align: center;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
+
 #social-networks i {
     font-size: 200%;
 }
@@ -319,7 +327,8 @@ footer a {
 }
 
 
-input[type="text"], input[type="email"] {
+input[type="text"],
+input[type="email"] {
     margin: 5px auto;
 }
 
@@ -339,6 +348,8 @@ label {
 
 /*Larger tablets and laptops in landscape mode*/
 @media screen and (min-width: 768px) {
+
+    /*navbar styles */
     nav {
         margin: 1em;
         position: absolute;
@@ -347,11 +358,12 @@ label {
         background-color: none;
     }
 
- /*Hide burger icon on larger screens */
+    /*Hide burger icon on larger screens */
 
-    #burger-nav label, #burger-icon {
+    #burger-nav label,
+    #burger-icon {
         display: none;
- }
+    }
 
     #menu {
         list-style-type: none;
@@ -360,24 +372,25 @@ label {
         gap: 30px;
         font-size: 150%;
         letter-spacing: 3px;
-}
+    }
 
 
-#menu a {
-    background-color: transparent;
-    padding-left: 0;
-    font-size: 1em;
-}
-    
+    #menu a {
+        background-color: transparent;
+        padding-left: 0;
+        font-size: 1em;
+    }
+
     #about-us-section {
         margin-block: 2rem;
         padding-inline: 8rem;
-     }
-     .offers-container {
+    }
+
+    .offers-container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-    } 
+    }
 
     .offers-text {
         width: 60%;
@@ -392,8 +405,8 @@ label {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-    } 
-    
+    }
+
     .image-left {
         flex-direction: row-reverse;
     }
@@ -418,7 +431,7 @@ label {
     }
 
     #gallery-photos img {
-       width: 95%;
+        width: 95%;
         margin-block: 1em;
         margin-left: 1em;
         border: #ffffff;
@@ -462,12 +475,12 @@ label {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-    } 
-    
+    }
+
     .image-left {
         flex-direction: row-reverse;
     }
-    
+
     /* Gallery */
     #gallery-photos {
         column-count: 3;
