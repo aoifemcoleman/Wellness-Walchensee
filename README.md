@@ -86,10 +86,29 @@ The site was deployed to GitHub using the following steps:
 
 ## Credits
 
-### Contents
+### Content
+
+The idea behind the context of this website was taken from my own love of hiking, wellness and the outdoors, and my experience living near the German Alps.
+
+However, I did use content from a variety of websites when researching some of the wellness activities:
+
+- In researching saunas, I used ideas from these websites [here](https://www.loylyhelsinki.fi/en/public-sauna) and [here](https://www.fluidra.com/projects/finnish-saunas/) when writing my content.
+- I also took inspiration from the [website](https://meditation-in-muenchen.de/ap-wed/) of a meditation class I attended myself in Munich.
 
 ### Media
 
+- The favicon is by John Sorrentino and was taken from [favicon.io](https://favicon.io/emoji-favicons/national-park/).
+- walchensee-4518931_1280.webp was by RitaE and was taken from [pixabay](https://pixabay.com/photos/walchensee-lake-herzogstand-mountain-4518931/).
+- adventure-1839147_640.webp is by Pexels and taken from [pixabay](https://pixabay.com/photos/adventure-clouds-exploration-group-1839147/).
+- alps-4766516_1280.webp is by Ri_Ya and taken from [pixabay](https://pixabay.com/photos/alps-restaurant-mountain-idyllic-4766516/).
+- pexels-chris-f-11616145.webp is by Chris F and taken from [Pexels](https://www.pexels.com/photo/the-sunspot-mountaintop-lodge-in-winter-park-11616145/).
+- pexels-elina-fairytale-3865792.webp is by Elina Fairytale, and taken from [Pexels](https://www.pexels.com/photo/women-doing-yoga-3822668/)
+- pexels-elina-fairytale-3865792.webp is by Elina Fairytale, and taken from [Pexels](https://www.pexels.com/photo/woman-lying-on-bed-while-having-a-massage-3865792/)
+- pexels-max-rahubovskiy-8092430.webp is by Max Rahubovskiy and taken from [Pexels](https://www.pexels.com/photo/interior-of-sauna-8092430/).
+
+- window-3178666_640.webp is by mosiunterwegs and taken from [pixabay](https://pixabay.com/photos/window-house-inside-wood-luxury-3178666/).
+
+- 
 ### Code
 
 ## Acknowledgements
