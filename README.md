@@ -120,5 +120,16 @@ However, I did use content from a variety of websites when researching some of t
 
 ### Code
 
+- Code for the hero image and text was taken, and modified for my website, from [W3 Schools](https://www.w3schools.com/howto/howto_css_hero_image.asp).
+- Code snippets and understanding of how to create a hamburger menu for the responsive nav bar were taken from both the Code Institute Love Running project, and from [here](https://www.youtube.com/watch?v=4996fn82c4c), and modified.
+- Understanding of the var() function, inline and block elements and general responsivity was gained through this [video](https://www.youtube.com/watch?v=bn-DQCifeQQ&t=1557s).
+- Knowledge of creating mailto links was gained from [W3 Docs](https://www.w3docs.com/snippets/html/how-to-create-mailto-links.html).
+- Understanding of line-height was gained through [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height).
+- Code snippets for the responsive gallery were taken from Code Institute's [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/6.1-lets-add-some-images/assets/css/style.css) project, and modified.
+- Code taken from Code Institute's [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/5.3-meetup-times/index.html) project for social media icon section.
+
 ## Acknowledgements
 
+I would like to thank my mentor Ronan McClelland for all of his support, guidance, patience and enthusiasm for my project. 
+
+I would also like to thank the Code Institute tutoring team for their guidance and support during my moments of panic, and the Slack community who took time out of their own project work to help me with mine.
