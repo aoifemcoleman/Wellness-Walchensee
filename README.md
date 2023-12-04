@@ -100,15 +100,24 @@ However, I did use content from a variety of websites when researching some of t
 - The favicon is by John Sorrentino and was taken from [favicon.io](https://favicon.io/emoji-favicons/national-park/).
 - walchensee-4518931_1280.webp was by RitaE and was taken from [pixabay](https://pixabay.com/photos/walchensee-lake-herzogstand-mountain-4518931/).
 - adventure-1839147_640.webp is by Pexels and taken from [pixabay](https://pixabay.com/photos/adventure-clouds-exploration-group-1839147/).
-- alps-4766516_1280.webp is by Ri_Ya and taken from [pixabay](https://pixabay.com/photos/alps-restaurant-mountain-idyllic-4766516/).
+- alps-4766516_640.webp is by Ri_Ya and taken from [pixabay](https://pixabay.com/photos/alps-restaurant-mountain-idyllic-4766516/).
 - pexels-chris-f-11616145.webp is by Chris F and taken from [Pexels](https://www.pexels.com/photo/the-sunspot-mountaintop-lodge-in-winter-park-11616145/).
-- pexels-elina-fairytale-3865792.webp is by Elina Fairytale, and taken from [Pexels](https://www.pexels.com/photo/women-doing-yoga-3822668/)
-- pexels-elina-fairytale-3865792.webp is by Elina Fairytale, and taken from [Pexels](https://www.pexels.com/photo/woman-lying-on-bed-while-having-a-massage-3865792/)
+- pexels-elina-fairytale-3865792.webp is by Elina Fairytale, and taken from [Pexels](https://www.pexels.com/photo/women-doing-yoga-3822668/).
+- pexels-elina-fairytale-3865792.webp is by Elina Fairytale, and taken from [Pexels](https://www.pexels.com/photo/woman-lying-on-bed-while-having-a-massage-3865792/).
 - pexels-max-rahubovskiy-8092430.webp is by Max Rahubovskiy and taken from [Pexels](https://www.pexels.com/photo/interior-of-sauna-8092430/).
 
 - window-3178666_640.webp is by mosiunterwegs and taken from [pixabay](https://pixabay.com/photos/window-house-inside-wood-luxury-3178666/).
 
-- 
+- pexels-pixabay-161737.webp is by Pixabay and taken from [Pexels](https://www.pexels.com/photo/brown-chair-with-white-pillows-161737/).
+
+- pexels-thalia-kensinger-19216438.webp is by Thalia Kensinger and taken from [Pexels](https://www.pexels.com/@thalia-kensinger-794879652/featured-uploads/).
+
+- pexels-yan-krukau-8436490.webp is by Yan Krukau and taken from [Pexels](https://www.pexels.com/a-man-instructing-yoga-to-a-group-of-women-8436490/).
+- pool-3001209_640.webp is by nkaminetskyy and taken from [pixabay](https://pixabay.com/de/photos/schwimmbad-sauna-bad-urlaub-3001209/).
+- wellness-285587_640.webp is by rhythmuswege and taken from [pixabay](https://pixabay.com/photos/wellness-massage-relax-relaxing-285587/).
+- woman-3053492_640.webp is by lograstudio and taken from [pixabay](https://pixabay.com/photos/woman-yoga-meditation-mindfulness-3053492/).
+- yoga-1994667_640.webp is by shushipu and taken from [pixabay](https://pixabay.com/photos/yoga-yoga-class-fitness-exercise-1994667/).
+
 ### Code
 
 ## Acknowledgements
