@@ -59,6 +59,19 @@ It was decided not to add a header element here, as this made the section appear
 
 - __Location Section__
 
+The website contains an iframe of the Google Maps link to the mountain lodge's fictional address. 
+
+![Screenshot of iframe and location header](assets/images/location-section.png) 
+
+Visitors to the website can interact with this map within the website, by zooming in and out to see the exact location and its surroundings.
+
+- __Footer__
+
+Within the footer, users have quick and easy access to all forms of contact. They have the option to contact the lodge via phone, email (with a mailto link that will open their email app directly), via the address, or by connecting with the lodge on various forms of social media. 
+
+The social media icons will open a new tab when clicked to the associated social media network landing page.
+
+![Screenshot of footer in desktop view](assets/images/Footer.png)
 
 - __Gallery__
 - __Reservation Form__
