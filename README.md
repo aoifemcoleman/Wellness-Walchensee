@@ -3,7 +3,7 @@
 
 ## Purpose
 
-Walchensee Wonder is a site for a fictitious mountain lodge nestled in the Bavarian Alps, with a focus on wellbeing and mindfulness. The site will be aimed at hikers, travelers and anyone looking for a space to recuperate and disconnect from the business of daily life, in a peaceful and stunning mountain environment.
+Walchensee Wonder is a website for a fictitious mountain lodge nestled in the Bavarian Alps, with a focus on wellbeing and mindfulness. The site will be aimed at hikers, travellers and anyone looking for a space to recuperate and disconnect from the business of daily life, in a peaceful and stunning mountain environment.
 
 The main purposes of the site are to advertise the mountain wellness lodge to a wide audience, to provide any potential guests with the details of our packages and what they each include, to convince the user of the benefits of each wellness activity and facility that the lodge provides, and to provide the user with the ability to arrange a reservation.
 
@@ -21,17 +21,17 @@ The links in the navigation bar appear in bold when hovered over on larger scree
 
 - _Desktop view:_
 
-![Screenshot of website's navbar in desktop view](assets/images/Navbar-desktop.webp)
+![Screenshot of website's navbar in desktop view](assets/images/navbar-desktop.webp)
 
 - _Mobile view (when burger icon is clicked):_
 
-![Screenshot of website's navbar in mobile view](assets/images/Navbar-mobile.webp)
+![Screenshot of website's navbar in mobile view](assets/images/navbar-mobile.webp)
 
 - __Hero Image__
 
 The hero image is the view that will be available to potential guests of the mountain lodge, and is used to capture the user's interest. It includes text overlay with the website title (the name of the mountain lodge) within a h1 element, as well as a brief description of "Luxury Alpine Lodging" to make it clear to any visitors of the site what the product is.
 
-![Screenshot of hero image as seen on desktop](assets/images/Hero-image.webp)
+![Screenshot of hero image as seen on desktop](assets/images/hero-image.webp)
 
 - __About Us Section__
 
@@ -67,22 +67,23 @@ Visitors to the website can interact with this map within the website, by zoomin
 
 - __Footer__
 
-Within the footer, users have quick and easy access to all forms of contact. They have the option to contact the lodge via phone, email (with a mailto link that will open their email app directly), via the address, or by connecting with the lodge on various forms of social media. 
+Within the footer, users have quick and easy access to all forms of contact. They have the option to contact the lodge via phone, email (with a mailto link that will open their email app directly), via the address, or by connecting with the lodge on various forms of social media. They can also click on the `Make a Reservation Request` link to be brought to the reservation form.
 
 The social media icons will open a new tab when clicked to the associated social media network landing page.
 
-![Screenshot of footer in desktop view](assets/images/Footer.png)
+![Screenshot of footer in desktop view](assets/images/footer.png)
 
 - __Gallery__
 
 The gallery is contained within a new page, and comprises an attention-grabbing header and 8 images conveying all of the experience a guest can have at Walchensee Wonder. The aim of the gallery is to portray the beauty of the location, the assortment of luxury peaceful activties they can partake in, and to entice the user to book a stay in the lodge.
 
 - Desktop view
-    ![Screenshot of gallery in desktop view](assets/images/Gallery-desktop.png)
+
+    ![Screenshot of gallery in desktop view](assets/images/gallery-desktop.png)
 
 - Mobile view
 
-    ![Screenshot of gallery in mobile view](assets/images/Gallery-mobile.png)
+    ![Screenshot of gallery in mobile view](assets/images/gallery-mobile.png)
 
 - __Reservation Form__
 
@@ -97,6 +98,10 @@ There are also links to the reservation request form within the contact section 
 - Realtime reservation form, where guests can select a package and room of their choice on their selected date based on the availability communicated from the back-end.
 
 ## Testing
+
+The website has been tested on multiple devices and browsers. It has been manually tested on Google Chrome, Firefox and Safari desktops, as well as Android and macOS. Within Chrome developer tools, the website has been tested on multiple different devices of various viewport widths and heights, and is fully responsive.
+
+The website was also tested for Accessibility, and received a score of 100% using Lighthouse in Chrome Developer Tools.
 
 
 
