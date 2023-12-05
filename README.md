@@ -129,6 +129,7 @@ However, I did use content from a variety of websites when researching some of t
 - Understanding of line-height was gained through [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height).
 - Code snippets for the responsive gallery were taken from Code Institute's [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/6.1-lets-add-some-images/assets/css/style.css) project, and modified.
 - Code taken from Code Institute's [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/5.3-meetup-times/index.html) project for social media icon section.
+- Inspiration and some code for the iframe was taken from the [Coder's Coffehouse](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRR101+2021_T1/courseware/9645be8635124d76b35692f1f1f6b753/2c4f82a9ef174830aa83ff2cf10f4bc7/) project and adapted.
 
 ## Acknowledgements
 
