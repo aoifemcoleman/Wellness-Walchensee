@@ -219,6 +219,10 @@ p {
     padding-bottom: 5em;
 }
 
+#iframe {
+    width: 100%;
+}
+
 #map h2 {
     padding-block: 1em;
 }
@@ -242,7 +246,7 @@ p {
 
 /* Footer */
 footer {
-    padding-top: 50px;
+    padding-top: 250px;
     padding-bottom: 10px;
     background-color: #110E0D;
     font-size: 1em;
