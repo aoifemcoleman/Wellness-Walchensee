@@ -67,7 +67,9 @@ It was decided not to add a header element here, as this made the section appear
 
 ### Validator testing
 
-HTML 
+Resolved all issues in index.HTML
+
+
 
 ### Unfixed bugs
 
