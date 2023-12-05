@@ -74,6 +74,16 @@ The social media icons will open a new tab when clicked to the associated social
 ![Screenshot of footer in desktop view](assets/images/Footer.png)
 
 - __Gallery__
+
+The gallery contains 8 images conveying all of the experience a guest can have at Walchensee Wonder. The aim of the gallery is to portray the beauty of the location, the assortment of luxury peaceful activties they can partake in, and to entice the user to book a stay in the lodge.
+
+- Desktop view
+    ![Screenshot of gallery in desktop view](assets/images/Gallery-desktop.png)
+
+- Mobile view
+
+    ![Screenshot of gallery in mobile view](assets/images/Gallery-mobile.png)
+
 - __Reservation Form__
 
 ### Features left to implement
@@ -117,7 +127,11 @@ This was a background colour of 'none' which had been added to the nav rule in t
 
 ### Unfixed bugs
 
-- Preview image when site shared via social media
+Changing the default preview image when website is shared via social media:
+
+The default preview icon is currently image woman-3053492_640.webp. Whilst this image is also reflective of the concept of Walchensee Wonder, the hero image of Walchensee would be more enticing for a lover of the outdoors - whom the target audience for this product is.
+
+I have changed the meta tags as suggested [here](https://stackoverflow.com/questions/19632323/default-website-image-for-social-sharing) but the image remains as either the same on Instagram, or unavailable on Whatsapp and Facebook. However, as this is not a necessary change I decided to leave the image as it is.
 
 ## Deployment
 
@@ -140,6 +154,10 @@ However, I did use content from a variety of websites when researching some of t
 
 - In researching saunas, I used ideas from these websites [here](https://www.loylyhelsinki.fi/en/public-sauna) and [here](https://www.fluidra.com/projects/finnish-saunas/) when writing my content.
 - I also took inspiration from the [website](https://meditation-in-muenchen.de/ap-wed/) of a meditation class I attended myself in Munich.
+
+I also used the site [Coolors](https://coolors.co/) to make a colour palette that would compliment the hero image and style of the website. 
+
+I imported my fonts from [Google Fonts](https://fonts.google.com/).
 
 ### Media
 
