@@ -224,6 +224,8 @@ p {
 
 #iframe {
     width: 100%;
+    height: 60vh;
+    padding-bottom: 5em;
 }
 
 #map h2 {
@@ -249,7 +251,7 @@ p {
 
 /* Footer */
 footer {
-    padding-top: 250px;
+    padding-top: 50px;
     padding-bottom: 10px;
     background-color: #110E0D;
     font-size: 1em;

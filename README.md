@@ -58,12 +58,18 @@ It was decided not to add a header element here, as this made the section appear
 ![Screenshot of section header, and text and image about meditation aspect](assets/images/spa-section.webp)
 
 - __Location Section__
+
+
 - __Gallery__
 - __Reservation Form__
 
 ### Features left to implement
 
+- Realtime reservation form, where guests can select a package and room of their choice on their selected date based on the availability communicated from the back-end.
+
 ## Testing
+
+
 
 ### Validator testing
 
