@@ -138,7 +138,7 @@ The website has been tested on multiple devices and browsers. It has been manual
     The user is also required to fill out each field, or the form will not submit. 
 
 
- - Accessibility
+ ### Accessibility
 
 The website was also tested for Accessibility, as it incorporates alt text, aria-labels and contrasting colours for screen reader use, and received a score of 100% using Lighthouse in Chrome Developer Tools.
 
