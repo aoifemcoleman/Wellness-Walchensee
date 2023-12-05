@@ -75,7 +75,7 @@ The social media icons will open a new tab when clicked to the associated social
 
 - __Gallery__
 
-The gallery contains 8 images conveying all of the experience a guest can have at Walchensee Wonder. The aim of the gallery is to portray the beauty of the location, the assortment of luxury peaceful activties they can partake in, and to entice the user to book a stay in the lodge.
+The gallery is contained within a new page, and comprises an attention-grabbing header and 8 images conveying all of the experience a guest can have at Walchensee Wonder. The aim of the gallery is to portray the beauty of the location, the assortment of luxury peaceful activties they can partake in, and to entice the user to book a stay in the lodge.
 
 - Desktop view
     ![Screenshot of gallery in desktop view](assets/images/Gallery-desktop.png)
@@ -85,6 +85,12 @@ The gallery contains 8 images conveying all of the experience a guest can have a
     ![Screenshot of gallery in mobile view](assets/images/Gallery-mobile.png)
 
 - __Reservation Form__
+
+The reservation form is within the final page of the website. In this section users of the website can view the various package options available to them, and make a request to book for their chosen date.
+
+There are also links to the reservation request form within the contact section of the footer on both the Home and Gallery pages.
+
+![Screenshot of packages and reservation form](assets/images/reservation-form.png)
 
 ### Features left to implement
 
