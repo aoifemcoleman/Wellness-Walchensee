@@ -1,11 +1,19 @@
 # Walchensee Wonder
-![Screenshot of website responsivity, taken from https://ui.dev/amiresponsive](assets/images/Responsivity.webp)
+![Screenshot of website responsivity, taken from https://ui.dev/amiresponsive](assets/images/responsivity.webp)
+
 
 ## Purpose
 
-Walchensee Wonder is a website for a fictitious mountain lodge nestled in the Bavarian Alps, with a focus on wellbeing and mindfulness. The site will be aimed at hikers, travellers and anyone looking for a space to recuperate and disconnect from the business of daily life, in a peaceful and stunning mountain environment.
+Walchensee Wonder is a website for a fictitious mountain lodge nestled in the Bavarian Alps, with a focus on wellbeing and mindfulness. 
 
-The main purposes of the site are to advertise the mountain wellness lodge to a wide audience, to provide any potential guests with the details of our packages and what they each include, to convince the user of the benefits of each wellness activity and facility that the lodge provides, and to provide the user with the ability to arrange a reservation.
+The site will be aimed at hikers, travellers and anyone looking for a space to recuperate and disconnect from the business of daily life, in a peaceful and stunning mountain environment.
+
+The main purposes of the site are:
+- to advertise the mountain wellness lodge to a wide audience
+- to provide any potential guests with the details of our packages and what they each include
+- to offer the user a clear and easy navigation experience, so that they can find the content they are looking for
+- to convince the user of the benefits of each wellness activity and facility that the lodge provides 
+- to provide the user with the ability to arrange a reservation
 
 [View the live deployed website here.](https://aoifemcoleman.github.io/Wellness-Walchensee/index.html)
 
@@ -101,7 +109,40 @@ There are also links to the reservation request form within the contact section 
 
 The website has been tested on multiple devices and browsers. It has been manually tested on Google Chrome, Firefox and Safari desktops, as well as Android and macOS. Within Chrome developer tools, the website has been tested on multiple different devices of various viewport widths and heights, and is fully responsive.
 
-The website was also tested for Accessibility, and received a score of 100% using Lighthouse in Chrome Developer Tools.
+### Clickable links:
+
+- __Navigation Bar__
+
+    The navbar was tested on all screen sizes to ensure responsivity. On screens above 768px, the navbar appears horizontally across the hero image, and links bolden when hovered over and clicked. 
+
+    On smaller screens, the navbar collapses into a 'burger icon', with the menu items displaying in a white column under it.
+
+- __Footer__
+    
+    The footer contains a mailto link effect that directs a user to their default email client when clicked. This was tested on desktop and mobile devices. On desktop devices, the user is directed to their default email client's website, and on mobile devices, the user is directed to their email application.
+
+    The footer also contains a link to the reservation form, and this opened the reservation.html page on all tested devices.
+
+    The social media icons when clicked open the landing page within a new browser window, or when the relevant application is installed, they are directed to the application.
+
+- __Gallery__
+
+    The gallery was tested to ensure the alt text displayed whenever a link was broken. This was also tested with the images on the Home page.
+
+- __Reservation Form__
+
+    The reservation form features types within its inputs that ensure the user is entering the correctly corresponding data into the form. This was tested by entering an email address without the @ symbol - which the form refused to accept. 
+
+    The user is required to insert a number of guests between 1 minimum and 5 maximum guests. If a user enters a number above or below these numbers, they will see a pop-up asking them to re-enter the data correctly.
+    
+    The user is also required to fill out each field, or the form will not submit. 
+
+
+ - Accessibility
+
+The website was also tested for Accessibility, as it incorporates alt text, aria-labels and contrasting colours for screen reader use, and received a score of 100% using Lighthouse in Chrome Developer Tools.
+
+![Screenshot of accessibility score from Lighthouse](assets/images/accessibility-result.png)
 
 
 
