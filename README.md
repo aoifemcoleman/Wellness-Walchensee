@@ -67,8 +67,33 @@ It was decided not to add a header element here, as this made the section appear
 
 ### Validator testing
 
-Resolved all issues in index.HTML
+HTML:
 
+Some issues were returned when passed through the official [W3C validator](https://validator.w3.org/).
+
+- index.html
+    
+    The html had some stray div elements, which have since been removed. 
+
+    There was a duplicate id of #map for both the map section and the iframe. The ID was removed from the iframe, and replaced with a #iframe id to which a width attribute was added, and then extra padding added to the footer element to prevent any overlapping.
+
+    There was a missing semi-colon after the checkbox code, which has since been added.
+
+    The html returned no errors when it was passed through again.
+
+    - gallery.html
+
+    The gallery returned one error which was the semi-colon missing after the checkbox code, which has since been added to all pages.
+
+    - reservation.html
+
+    The html on this page returned one error which was the label for the radio buttons, as the for attribute must have a non-hidden form control. To rectify this, a h4 heading was used to display the heading.
+
+CSS:
+
+One issue was returned when passed through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator). 
+
+This was a background colour of 'none' which had been added to the nav rule in the media query for screens with a min. width of 768px. This has since been deleted, and as a rule already existed to make the background colour transparent, no further action was needed. No errors were returned when passed through again.
 
 
 ### Unfixed bugs
